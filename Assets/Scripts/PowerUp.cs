@@ -10,6 +10,11 @@ public class PowerUp : MonoBehaviour
     {
         if (other.CompareTag("Player")) Collect(other.gameObject);
     }
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player")) Collect(collision.gameObject);
+    }
 
     private void Collect(GameObject player)
     {

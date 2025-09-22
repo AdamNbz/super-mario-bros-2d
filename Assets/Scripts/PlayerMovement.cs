@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Camera cam;
     private Rigidbody2D rb;
+    private Collider2D colliders;
+
     private Vector2 velocity;
 
     [Header("Tuning")]
@@ -25,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        colliders = GetComponent<Collider2D>();
         cam = Camera.main;
     }
 
@@ -32,12 +35,22 @@ public class PlayerMovement : MonoBehaviour
     {
         moveAction.action.Enable();
         jumpAction.action.Enable();
+
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        colliders.enabled = true;
+        velocity = Vector2.zero;
+        jumping = false;
     }
 
     private void OnDisable()
     {
         moveAction.action.Disable();
         jumpAction.action.Disable();
+
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        colliders.enabled = false;
+        velocity = Vector2.zero;
+        jumping = false;
     }
 
     private void Update()
