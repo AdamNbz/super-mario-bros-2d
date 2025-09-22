@@ -816,7 +816,7 @@ PrefabInstance:
     - target: {fileID: 5010361165128784341, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 9180978414693395855, guid: 36ee08296fbb04706b355263edf49cc1, type: 3}
+      objectReference: {fileID: 2410434817969560794, guid: 9b96fdd40f1974c8e9a6627b66b180e3, type: 3}
     - target: {fileID: 5235151686793765417, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (1)
@@ -3424,6 +3424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Koopa
       objectReference: {fileID: 0}
+    - target: {fileID: 1965276135769026519, guid: 2bd71afa8965f4d9585806ec66fcda8b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4677426085393074046, guid: 2bd71afa8965f4d9585806ec66fcda8b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 107
@@ -4070,7 +4074,7 @@ PrefabInstance:
     - target: {fileID: 5010361165128784341, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 9180978414693395855, guid: 36ee08296fbb04706b355263edf49cc1, type: 3}
+      objectReference: {fileID: 2410434817969560794, guid: 9b96fdd40f1974c8e9a6627b66b180e3, type: 3}
     - target: {fileID: 5235151686793765417, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (4)
@@ -4642,7 +4646,7 @@ PrefabInstance:
     - target: {fileID: 5010361165128784341, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 9180978414693395855, guid: 36ee08296fbb04706b355263edf49cc1, type: 3}
+      objectReference: {fileID: 2410434817969560794, guid: 9b96fdd40f1974c8e9a6627b66b180e3, type: 3}
     - target: {fileID: 5235151686793765417, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (8)
@@ -6643,6 +6647,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6743031316888759364, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 9180978414693395855, guid: 36ee08296fbb04706b355263edf49cc1, type: 3}
+    - target: {fileID: 6743031316888759364, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
+      propertyPath: maxHit
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7065202816793275294, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
       propertyPath: m_Name
       value: Brick (16)
@@ -6994,7 +7006,7 @@ PrefabInstance:
     - target: {fileID: 5010361165128784341, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 9180978414693395855, guid: 36ee08296fbb04706b355263edf49cc1, type: 3}
+      objectReference: {fileID: 3870671120336126800, guid: 834779dfef34c45849f571f264123dbc, type: 3}
     - target: {fileID: 5235151686793765417, guid: 7910b2ef6535c45f7a6912c994535222, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (14)
@@ -10357,6 +10369,14 @@ PrefabInstance:
     - target: {fileID: 5349322273313169279, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743031316888759364, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 5930955437933917003, guid: 7442f4d697fde4a63a5c4d24a436eb41, type: 3}
+    - target: {fileID: 6743031316888759364, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
+      propertyPath: maxHit
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7065202816793275294, guid: 83f754c0369374cb48ef4e4512f46e2f, type: 3}
       propertyPath: m_Name

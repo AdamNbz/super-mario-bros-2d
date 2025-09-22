@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 7815256466140384475}
   - component: {fileID: 3493132809492962105}
   - component: {fileID: 2438142933648617313}
+  - component: {fileID: 6018245400318623143}
+  - component: {fileID: 8119599195214753079}
+  - component: {fileID: 6119765054879653944}
   m_Layer: 0
   m_Name: Starman
   m_TagString: Untagged
@@ -202,3 +205,42 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6018245400318623143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5930955437933917003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfadcf9fae024093aeb0f7db8245606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityMovement
+  speed: 3
+  direction: {x: 1, y: 0}
+--- !u!114 &8119599195214753079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5930955437933917003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281d87cdc277b479ea5777d1f731dbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlockItem
+--- !u!114 &6119765054879653944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5930955437933917003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9567bbcdbfbd4d8bac1cec8bfa1b9d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUp
+  type: 3

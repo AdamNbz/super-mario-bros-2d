@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 7841908361741875767}
   - component: {fileID: 5744660783216041606}
   - component: {fileID: 8565278170209676403}
+  - component: {fileID: 1831062583727691012}
+  - component: {fileID: 7593313640995033151}
+  - component: {fileID: 2704368444472429216}
   m_Layer: 0
   m_Name: MagicMushroom
   m_TagString: Untagged
@@ -202,3 +205,42 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1831062583727691012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410434817969560794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfadcf9fae024093aeb0f7db8245606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityMovement
+  speed: 3
+  direction: {x: 1, y: 0}
+--- !u!114 &7593313640995033151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410434817969560794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281d87cdc277b479ea5777d1f731dbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlockItem
+--- !u!114 &2704368444472429216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410434817969560794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9567bbcdbfbd4d8bac1cec8bfa1b9d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUp
+  type: 2
